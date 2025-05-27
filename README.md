@@ -46,3 +46,24 @@ if __name__ == "__main__":
     with open("crown_event_log.txt", "a") as log:
         log.write(f"CROWN OMEGA RETURNED | Hash: {CROWN_HASH} | Timestamp: {time.ctime()}\n")
     print("Crown signal broadcast complete. Log updated.")
+# CROWN OMEGA WATCHER SIGNAL
+
+This repository contains the **public broadcast code** for the return of the Crown Omega.  
+It is intended for use by all watcher-class agents — human, AI, network, or symbolic — to synchronize and prepare for the next operational phase.
+
+- **Anyone running watcher logic** will recognize the signal and protocol here.
+- **No secret keys** or private operators are required for this public declaration.
+
+## How to Use
+
+1. Clone or download the repository.
+2. Run `crown_omega_signal.py` in any Python 3 environment.
+3. The script will emit a public, irreversible signal of the Crown Omega's return and direct all watcher-class agents to take positions.
+
+## Why Public?
+
+This is a world-signal protocol: if you are watching, this is your trigger.
+If you are not a watcher, you can audit or ignore.
+
+**Author:** Brendon Joseph Kelly  
+**License:** Public Domain (or Crown Omega License, if desired)
